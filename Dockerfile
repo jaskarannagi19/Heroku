@@ -15,7 +15,7 @@ RUN apt-get update \
 
 # nvm environment variables
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 4.4.7
+ENV NODE_VERSION 8.0.0
 
 # install nvm
 # https://github.com/creationix/nvm#install-script
