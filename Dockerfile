@@ -59,3 +59,6 @@ RUN ln -s /usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /usr/lib/x86_64-linux-gnu
 RUN apt-get install -y wget
 RUN wget http://security.ubuntu.com/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
 RUN dpkg -i libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
+
+COPY . .
+CMD ["npm","start"] 
