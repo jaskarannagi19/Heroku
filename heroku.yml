@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: npm install; node app.js
+  web: npm install; node ./app.js
